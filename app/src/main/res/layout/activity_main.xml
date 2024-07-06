@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:background="#ffeee9e2"
+        app:layout_constraintBottom_toTopOf="@+id/frameBottombar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678"
+        app:rotation_degrees="15.5"
+        tools:context=".MyActivity"
+        android:backgroundTint="@color/white"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameTuongTac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="start"
+        android:layout_marginTop="450dp"
+        app:layout_constraintBottom_toBottomOf="@+id/frame"
+        app:layout_constraintTop_toTopOf="@+id/frame"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:id="@+id/linearSearch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageBack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:src="@drawable/b"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/imageDontLike"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:src="@drawable/f"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/f" />
+
+            <ImageButton
+                android:id="@+id/imageSuperLike"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:src="@drawable/e"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/e" />
+
+            <ImageButton
+                android:id="@+id/imageLike"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:src="@drawable/d"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/d" />
+
+            <ImageButton
+                android:id="@+id/imageBoost"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:src="@drawable/c"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/c" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/frameBottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_nav_menu"/>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

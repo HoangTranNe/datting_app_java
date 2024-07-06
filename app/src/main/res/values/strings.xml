@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">doancnpm</string>
+    <string name="loading">Loading?</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <!--TODO ENTER YOUR APP ID BELOW-->
+    <string name="facebook_app_id" />
+    <!--TODO ENTER YOUR APP ID BELOW (eg: fb0123456789)-->
+    <string name="fb_login_protocol_scheme">fb</string>
+    <!--TODO ENTER YOUR Client Token BELOW-->
+    <string name="facebook_client_token" />
+    <string name="lbl_i">i</string>
+    <string name="lbl_continue">CONTINUE</string>
+    <string name="lbl_m">M</string>
+    <string name="lbl_000000000">000000000</string>
+    <string name="lbl_theater">Theater</string>
+    <string name="msg_always_report_b">Always report bad behavior.</string>
+    <string name="lbl_hot_springs">Hot Springs</string>
+    <string name="msg_don_t_be_too_qu2">Don\u2019t be too quick to give out personal information. </string>
+    <string name="lbl_90s_kid">90s Kid</string>
+    <string name="lbl_basketball">Basketball</string>
+    <string name="lbl_lives_in_penha">Lives in Penha</string>
+    <string name="lbl_y">Y</string>
+    <string name="lbl_hockey">Hockey</string>
+    <string name="lbl_oops">Oops!</string>
+    <string name="lbl_hot_yoga">Hot Yoga</string>
+    <string name="lbl_super_like">Super Like</string>
+    <string name="lbl_learn_more">Learn More</string>
+    <string name="lbl_safety">SAFETY</string>
+    <string name="lbl_harry_potter">Harry Potter</string>
+    <string name="msg_sign_in_with_ph">SIGN IN WITH PHONE NUMBER</string>
+    <string name="msg_3_kilometers_aw">3 kilometers away</string>
+    <string name="lbl_man">MAN</string>
+    <string name="lbl_aquarium">Aquarium</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_bruno">Bruno</string>
+    <string name="lbl_meditation">Meditation</string>
+    <string name="lbl_edit_profile">EDIT PROFILE</string>
+    <string name="lbl_d">D</string>
+    <string name="msg_1_kilometer_awa">1 kilometer away</string>
+    <string name="lbl_running">Running</string>
+    <string name="lbl_walking">Walking</string>
+    <string name="lbl_rachel_33">Rachel, 33</string>
+    <string name="msg_photos_people">Photos, People, Places...</string>
+    <string name="msg_create_new_acco">CREATE NEW ACCOUNT</string>
+    <string name="lbl_try_again">Try again</string>
+    <string name="lbl_like">Like</string>
+    <string name="lbl_kr_82">KR +82</string>
+    <string name="msg_sign_in_with_fa">SIGN IN WITH FACEBOOK</string>
+    <string name="lbl_tes">Tes</string>
+    <string name="lbl_date_safely">Date Safely</string>
+    <string name="msg_we_couldn_t_fin">We couldn\u2019t find a Tinder account connected to that Facebook Account.</string>
+    <string name="lbl_continue_2_5">CONTINUE 2/5</string>
+    <string name="msg_let_everyone_kn">Let everyone know what you\u2019re interested
+in by adding it to your profile.</string>
+    <string name="msg_please_follow_t">Please follow these House Rules.</string>
+    <string name="lbl_house_parties">House Parties</string>
+    <string name="msg_show_selected">Show Selected (1)</string>
+    <string name="lbl_carla">Carla</string>
+    <string name="msg_by_tapping_crea">By tapping Create Account or Sign In, you agree to our Terms. Learn how we process your data in our Privacy Policy and Cookies Policy.</string>
+    <string name="lbl_my_birthday_is">My
+birthday is</string>
+    <string name="lbl_add_photos">Add photos</string>
+    <string name="lbl_photos">Photos</string>
+    <string name="lbl_nope">NOPE</string>
+    <string name="lbl_hapkido">Hapkido</string>
+    <string name="lbl_tinder_platinum">Tinder Platinum</string>
+    <string name="lbl_my_code_is">My code is</string>
+    <string name="lbl_be_yourself">Be yourself.</string>
+    <string name="lbl_27">27</string>
+    <string name="lbl_28">28</string>
+    <string name="lbl_25">25</string>
+    <string name="lbl_be_proactive">Be proactive.</string>
+    <string name="msg_learn_what_happ">Learn what
+happens when your number changes.</string>
+    <string name="lbl_29">29</string>
+    <string name="lbl_sushi">Sushi</string>
+    <string name="msg_my_first_name">My first
+name is</string>
+    <string name="lbl_gallery">Gallery</string>
+    <string name="lbl_stay_safe">Stay safe.</string>
+    <string name="lbl_gymnastics">Gymnastics</string>
+    <string name="lbl_diego">Diego</string>
+    <string name="msg_level_up_every">Level up every action you take on Tinder</string>
+    <string name="lbl_lives_in_alfama">Lives in Alfama</string>
+    <string name="lbl_start_tutorial">START TUTORIAL</string>
+    <string name="msg_welcome_to_tind">Welcome to Tinder.</string>
+    <string name="lbl_woman">WOMAN</string>
+    <string name="msg_trouble_signing">Trouble Signing In?</string>
+    <string name="lbl_ana">Ana</string>
+    <string name="msg_your_age_will_b">Your age will be public</string>
+    <string name="lbl_cafe_hopping">Cafe Hopping</string>
+    <string name="lbl_skip">SKIP</string>
+    <string name="lbl_26_complete">26% COMPLETE</string>
+    <string name="lbl">/</string>
+    <string name="lbl_gin_tonic">Gin Tonic</string>
+    <string name="lbl_interests">Interests</string>
+    <string name="lbl_done">Done</string>
+    <string name="lbl_travel">Travel</string>
+    <string name="msg_respect_others">Respect others and treat them as you
+would like to be treated.</string>
+    <string name="lbl_play_it_cool">Play it cool.</string>
+    <string name="lbl_albums">Albums</string>
+    <string name="msg_we_will_send_a2">We will send a text with a verification code.
+Message and data rates may apply. </string>
+    <string name="lbl_spotify">Spotify</string>
+    <string name="lbl_instagram">Instagram</string>
+    <string name="lbl_i_agree">I AGREE</string>
+    <string name="lbl_camera">Camera</string>
+    <string name="msg_make_sure_your">Make sure your photos, age, and bio are
+true to who you are.</string>
+    <string name="msg_add_at_least_2">Add at least 2 photos to continue</string>
+    <string name="msg_this_app_will_h">This app will have access to the photos you select</string>
+    <string name="msg_this_is_how_it">This is how it will appear in Tinder and you will not be able to change it</string>
+    <string name="msg_lives_in_bairro">Lives in Bairro Alto</string>
+    <string name="msg_we_can_no_longe">We can no longer find people near you, please try again later</string>
+    <string name="lbl_spa">Spa</string>
+    <string name="lbl_heavy_metal">Heavy Metal</string>
+    <string name="msg_don_t_be_too_qu">Don\u2019t be too quick to give out personal information. Date Safely</string>
+    <string name="lbl_lives_in_gra_a">Lives in Gra?a</string>
+    <string name="lbl_self_care">Self Care</string>
+    <string name="lbl_home_workout">Home Workout</string>
+    <string name="lbl_slam_poetry">Slam Poetry</string>
+    <string name="lbl_sneakers">Sneakers</string>
+    <string name="lbl_settings">SETTINGS</string>
+    <string name="msg_sign_in_with_go">SIGN IN WITH GOOGLE</string>
+    <string name="msg_show_my_gender">Show my gender on my profile</string>
+    <string name="msg_2_kilometers_aw">2 kilometers away</string>
+    <string name="lbl_paulo">Paulo</string>
+    <string name="lbl_soundcloud">SoundCloud</string>
+    <string name="lbl_my_number_is">My number is</string>
+    <string name="msg_we_will_send_a">We will send a text with a verification code.
+Message and data rates may apply. Learn what
+happens when your number changes.</string>
+    <string name="lbl_i_am_a">I am a</string>
+    <string name="msg_this_contact_has_no_phone_nu">This contact has no phone number</string>
+    <string name="msg_camera_storage_permission">This Application need permission\n1.Camera permission to capture the image.\n2.Storage Access permission to save the captured image.</string>
+    <string name="resend_code">Resend code</string>
+    <string name="didn_t_have_receive_otp">Didn\'t have receive OTP?</string>
+    <string name="this_is_how_it_will_appear_in_tinder_and_you_will_not_be_able_to_change_it">This is how it will appear in Tinder and you will not be able to change it</string>
+    <string name="my_first_name_is">My First Name Is...</string>
+    <string name="default_web_client_id">766994873638-3nvlekrf9klge3oe508hk3rqbet6m363.apps.googleusercontent.com</string>
+    <string name="logo">logo</string>
+    <string name="rachel_33">
+        Rachel, 33
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

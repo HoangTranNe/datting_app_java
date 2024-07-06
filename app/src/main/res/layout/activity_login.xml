@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in_scr"
+    tools:context=".login.LoginActivity">
+    <LinearLayout android:id="@+id/linearSignInScreen"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <ImageView android:id="@+id/imageGroupThree"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="50dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="150dp"
+            android:layout_width="190dp"
+            android:scaleType="fitXY" android:src="@drawable/img_group3"
+            tools:ignore="ContentDescription"  tools:src="@drawable/img_group3"/>
+
+        <FrameLayout android:id="@+id/frameStackdescription"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="@dimen/_87pxv" android:layout_width="300dp">
+            <TextView android:gravity="top|center"
+                android:id="@+id/txtDescription"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/msg_by_tapping_crea"
+                tools:text="@string/msg_by_tapping_crea" />
+        </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSignInWithGoogleOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="23dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:letterSpacing="0.01"
+            android:paddingStart="30dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="@dimen/_16pxv"
+            android:singleLine="true"
+            android:text="@string/msg_sign_in_with_go"
+            android:background="@drawable/border"
+            android:textAllCaps="false"
+            
+            tools:text="@string/msg_sign_in_with_go" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnSignInWithFacebook"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:paddingBottom="16dp"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:paddingTop="16dp" android:singleLine="true"
+            android:text="@string/msg_sign_in_with_fa"
+            android:background="@drawable/border"
+            android:textAllCaps="false"  tools:text="@string/msg_sign_in_with_fa"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnSignInWithPhoneNumber"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:paddingBottom="16dp"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:paddingTop="16dp" android:singleLine="true"
+            android:text="@string/msg_sign_in_with_ph"
+            android:background="@drawable/border"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>

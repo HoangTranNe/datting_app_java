@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_codes">
+        <item>+84</item>//(Vietnam)
+        <item>+1</item>//(United States)
+        <item>+44</item>//(United Kingdom)
+        <item>+61</item>//(Australia)
+        <item>+65 (Singapore)</item>
+        <item>+60 (Malaysia)</item>
+        <item>+66 (Thailand)</item>
+    </string-array>
+</resources>

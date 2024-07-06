@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.InputNameActivity">
+
+    <LinearLayout
+        android:id="@+id/linearName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <ProgressBar
+            android:id="@+id/progressBarGroupEleven"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_45pxv"
+            android:gravity="start"
+            android:indeterminate="false"
+            android:max="100"
+            android:minHeight="@dimen/_4pxv"
+            android:progress="25"
+            android:progressBackgroundTint="@color/green_A200"
+            android:progressTint="@color/green_A200"/>
+
+        <ImageView
+            android:id="@+id/imageClose"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_marginEnd="24dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_close"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/img_close" />
+
+        <TextView
+            android:id="@+id/txtMyfirstnamei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_marginEnd="82dp"
+            android:text="@string/my_first_name_is"
+            android:textSize="33sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frameStacklineeight"
+            android:layout_width="231dp"
+            android:layout_height="@dimen/_35pxv"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="@dimen/_44pxv"
+            android:layout_marginEnd="24dp">
+
+            <View
+                android:id="@+id/lineLineEight"
+                android:layout_width="1dp"
+                android:layout_height="@dimen/_27pxv"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:background="@color/indigo_400" />
+
+            <LinearLayout
+                android:id="@+id/linearColumntes"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/inputName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:autofillHints=""
+                    android:inputType="text"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtThisishowit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_marginEnd="24dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/this_is_how_it_will_appear_in_tinder_and_you_will_not_be_able_to_change_it" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="@dimen/_38pxv"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:background="@drawable/frame_button"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingStart="30dp"
+            android:paddingTop="@dimen/_14pxv"
+            android:paddingEnd="30dp"
+            android:paddingBottom="@dimen/_14pxv"
+            android:singleLine="true"
+            android:text="@string/lbl_continue"
+            android:textAllCaps="false"
+            tools:text="@string/lbl_continue" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
